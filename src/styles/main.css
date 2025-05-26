@@ -1,0 +1,79 @@
+.main_{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-second);
+}
+
+.top_{
+    height: 10vh;
+    border-bottom: 0.1rem solid var(--color-five-light);
+}
+.colorchng{
+    color: var(--color-five);
+}
+.mid1{
+    height: 25vh;
+}
+.streak{
+    background-color: var(--color-white);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-five-light);
+}
+.topstreak{
+    grid-row: 1/5;
+    border-radius: 1rem 1rem 0 0;
+}
+.dailymiss{
+    grid-row: 5/6;
+    background-color: var(--color-first);
+    border-radius: 0 0 1rem 1rem;
+}
+.streakcount{
+    grid-column: 1/3;
+    border-right: 0.1rem solid var(--color-five-light);
+}
+.streakStat{
+    grid-column: 3/8;
+}
+.count{
+    font-size: 1.6rem;
+    font-weight: 700;
+
+}
+.count_{
+    color: #00000084;
+    font-size: 1.2rem;
+}
+.cc1{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.mid2{
+    height: 20vh;
+}
+.subbox{
+    flex: 0 0 auto;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-five-light);
+}
+.subname{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.listofsubs{
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-shrink: initial;
+
+}
+.mid3{
+    height: 35vh;
+}
+.menu_{
+    height: 10vh;
+    background-color: blanchedalmond;
+}
