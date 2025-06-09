@@ -1,0 +1,35 @@
+.practiceView{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, var(--color-second) 25%, #fff 25%);
+
+}
+.trackerh{
+    height: 15vh;
+}
+.latespracticesets{
+    height: 65vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.recentkuiz{
+    background-color: var(--color-first);
+    border-radius: 0.5rem;
+}
+.kuizsub{
+    font-size: 1.2rem;
+    color: var(--color-white);
+}
+.status{
+    background-color: var(--color-fun);
+    padding:  0.5rem;
+    border-radius: 0.5rem;
+}
+.revicebtn{
+    background-color: var(--color-third);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.head3{
+    font-size: 1.6rem;
+}

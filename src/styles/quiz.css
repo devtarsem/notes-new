@@ -1,0 +1,25 @@
+.quiz{
+    height: 100vh;
+    background-color: var(--color-second);
+}
+.problem,.options{
+    height: 35vh;
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem  #00000018;
+}
+.optbtn{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat';
+}
+.optbtnNext{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat';
+    background-color: var(--color-first);
+    color: var(--color-white);
+}

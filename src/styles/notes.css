@@ -1,0 +1,87 @@
+.topNotes{
+    height: 10vh;
+    border-bottom: 0.005rem solid #0000000f;
+}
+.midNotes{
+    height: 80vh;
+    overflow: scroll;
+}
+.notes,.detailNotes{
+    height: 100vh;
+    background-color: var(--color-second);
+}
+.headingtop{
+    text-align: start;
+    color: var(--color-five);
+}
+.tracker{
+    height: 10vh;
+}
+.notebox{
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem #00000018;
+    position: relative;
+    overflow: hidden;
+}
+.designbanner{
+    position: absolute;
+    top: 5%;
+    left: -10%;
+    width: 10vh;
+    height: 2vh;
+    background-color: var(--color-third);
+    transform: rotate(-45deg);
+}
+.notesLink{
+    background-color: var(--color-first);
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    text-decoration: none;
+}
+.sno{
+    margin-right: 1rem;
+    font-weight: 600;
+}
+.btnextras{
+    border: none;
+    font-family: 'Montserrat';
+}
+.notesdoenbox{
+    position: relative;
+}
+.designbox{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 5vh;
+    height: 4vh;
+    border-radius: 0 0 0.8rem 0.8rem;
+    background-color: var(--color-third);
+    font-weight: 600;
+}
+.tracker{
+    background-color: var(--color-white);
+    box-shadow: 0 0 0.5rem #00000018;
+    border-radius: 0.5rem;
+
+}
+.trackerInner{
+    /* padding-bottom: 0; */
+    
+}
+.outer{
+    height: 2vh;
+    width: 100%;
+    background-color: var(--color-third);
+    border-radius: 10rem;
+}
+.innerdot{
+    height: 100%;
+    width: 2vh;
+    border-radius: 10rem;
+    background-color: var(--color-first);
+}
