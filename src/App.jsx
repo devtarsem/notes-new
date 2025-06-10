@@ -9,6 +9,9 @@ import NotesDetail from './components/NotesDetails'
 import Practice from './components/learn'
 import Practice_view from './components/practice_view'
 import Quiz from './components/quiz'
+import Courses from './components/course'
+import Courses_lect from './components/Courses_lect'
+import Lect_play from './components/lecture_play'
 // import './styles/media.css'
 
 const router = createBrowserRouter([
@@ -52,7 +55,21 @@ const router = createBrowserRouter([
     path : '/Quiz',
     element : <Quiz/>
   }
-      
+  ,
+  {
+    path : '/courses',
+    element : <Courses/>
+  } 
+  ,
+  {
+    path : '/courses_lect/:subject',
+    element : <Courses_lect/>
+  } 
+  ,
+  {
+    path : '/Lect_play/:lecture_code',
+    element : <Lect_play/>
+  }
 ])
 
 function App() {
